@@ -1,0 +1,186 @@
+ls
+ls -
+ls -l
+ls - la
+ls -la
+man ls
+pwd
+ls
+cat README 
+cd repogit/
+git clone https://github.com/JulianGabilondo/Repo_Gabilondo.git
+ls
+cd Repo_Gabilondo/
+ls
+history
+git status
+history < historial.txt
+git commit -m "mi primer commit"
+git config --global user.email "juliangabilondo@gmail.com"
+vagrant halt
+exit
+pwd
+echo $HOME
+ls
+clear
+ls
+ls -l
+ls  -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:JulianGabilondo/Repo_Gabilondo.git
+cd Repo_Gabilondo
+ls -l
+echo "hola" > hola.txt
+ls .l
+ls -l
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "Agrego HOLA"
+git status
+git push
+cat /etc/passwd
+cat /etc/passwd | grep vagrant
+ls -l
+cat archivo1.txt 
+sudo cat /etc/shadow
+lscpu
+lscpu | -i model
+lscpu | grep -i model
+ls
+cat info_proc.txt 
+clear
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+history
+cat << FIN
+FIN
+
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+fin
+FIN
+
+cat bloque_cat.txt 
+ls - l
+ls -l
+cat hola.txt 
+echo "cahu" >> hola.txt 
+cat hola.txt 
+exit
+ls
+cd repogit/
+ls
+git@github.com:JulianGabilondo/TP_AySO.git
+ls
+shh-keygen
+git clone git@github.com:JulianGabilondo/TP_AySO.git
+ls
+clear
+git clone git@github.com:JulianGabilondo/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+whoami
+echo“Usuario=$(whoami)”>datos_usuario.txt
+at /etc/os-release
+/etc/os-release
+ls
+head/proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+cat datos_usuario.txt 
+ls
+grep -v nologin /etc/passwd 
+grep -v nologin /etc/passwd | sort -t":" -k7
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+lista_ordenada.txt
+
+ls
+stop
+close
+
+ddd
+
+o
+returm
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+git status
+gitcommit-m"ADD:agregado1erejercicio
+ sobredatos_usuarios.txt"
+git status
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+git status
+git add .
+git status
+gitcommit-m"ADD:agregado1erejercicio
+ sobredatos_usuarios.txt"
+git status
+gitcommit-m"ADD:agregado1erejercicio
+ sobredatos_usuarios.txt"
+cat README.md 
+rm lista_ordenada.txt 
+git status
+git commit -m "ADD: agregado 1er ejerjicio sobre datos_usuarios.txt"
+git status
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+git status
+git add
+git add .
+git satus
+git status
+clear
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+echo "tcpdump (8)          - dump traffic on a network" > comando_dump_net
+ls
+cat comando_dump_net 
+echo "apropos dump traffic" >> comando_dump_net
+cat comando_dump_net 
+cat << FIN >> README.md
+Alumno: Julian Gabilondo
+Division: 115
+Turno: Mañana
+fin
+FIN
+
+rm README.md 
+touch README.md
+cat << FIN >> README.md
+Alumno: Julian Gabilondo
+Division: 115
+Turno: Mañana
+FIN
+
+ls
+cat README.md 
+git add
+git add .
+git commit -m "ADD: Datos de alummo"
+history -a $HOME/.bash_history
